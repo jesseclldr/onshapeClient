@@ -1,0 +1,26 @@
+{
+  "name": "typescript-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "api.js",
+  "files":[
+    "build/**/*"
+  ],
+  "scripts": {
+    "clean":"del ./build/*",
+    "build":"npm run clean && tcs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "http": "0.0.1-security",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.36",
+    "@types/request": "^2.48.7"
+  }
+}
