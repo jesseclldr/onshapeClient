@@ -1,11 +1,8 @@
 {
-  "name": "typescript-node",
+  "name": "@jstickets12/onshapeclient",
   "version": "1.0.0",
   "description": "",
   "main": "api.js",
-  "files":[
-    "build/**/*"
-  ],
   "scripts": {
     "clean":"del ./build/*",
     "build":"npm run clean && tcs",
